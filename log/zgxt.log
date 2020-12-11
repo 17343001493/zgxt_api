@@ -1,0 +1,160 @@
+[32m[47mINFO    [0m [32mHttpRunner version: 2.5.7[0m
+[32m[47mINFO    [0m [32mLoading environment variables from /Users/bais/Desktop/hrun_zgxt/.env[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.5.7[0m
+[32m[47mINFO    [0m [32mLoading environment variables from /Users/bais/Desktop/zgxtapi/.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 注册接口[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 160.45 ms, response_length: 155 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/student/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 3156.05 ms, response_length: 617 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mGET https://test.zhugexuetang.com/app/v2/application-index/index[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 131.4 ms, response_length: 643 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/common/sendcode[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 343.71 ms, response_length: 58 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 818.21 ms, response_length: 886 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 156.49 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 114.48 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 131.77 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 688.43 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mrender with html report template: ./reports[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.5.7[0m
+[32m[47mINFO    [0m [32mLoading environment variables from /Users/bais/Desktop/zgxtapi/.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 注册接口[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 160.33 ms, response_length: 155 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/student/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 214.18 ms, response_length: 617 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mGET https://test.zhugexuetang.com/app/v2/application-index/index[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 145.14 ms, response_length: 643 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/common/sendcode[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 336.85 ms, response_length: 58 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 711.69 ms, response_length: 886 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 138.63 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 149.19 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 133.22 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 699.1 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mrender with html report template: ./reports/zgxt.html[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.5.7[0m
+[32m[47mINFO    [0m [32mLoading environment variables from /Users/bais/Desktop/zgxtapi/.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 注册接口[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 178.22 ms, response_length: 155 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/student/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 199.62 ms, response_length: 617 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mGET https://test.zhugexuetang.com/app/v2/application-index/index[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 162.92 ms, response_length: 643 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/common/sendcode[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 289.59 ms, response_length: 58 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 739.72 ms, response_length: 886 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 134.7 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 125.3 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 143.26 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 716.06 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mrender with html report template: ./reports/20201210T122904.813022.html[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: /Users/bais/Desktop/zgxtapi/reports/20201211T072354.490470.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.5.7[0m
+[32m[47mINFO    [0m [32mLoading environment variables from /Users/bais/Desktop/zgxtapi/.env[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 注册接口[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 138.06 ms, response_length: 155 bytes
+[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/student/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 3127.14 ms, response_length: 617 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mGET https://test.zhugexuetang.com/app/v2/application-index/index[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 149.44 ms, response_length: 643 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 获取验证码[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/common/sendcode[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 326.28 ms, response_length: 58 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 715.83 ms, response_length: 886 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 1219.81 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 124.28 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 133.67 ms, response_length: 78 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 登录接口参数化[0m
+[32m[47mINFO    [0m [32mPOST https://passportdev.doushen.com/userve/user/login[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 665.99 ms, response_length: 72 bytes
+[0m
+[32m[47mINFO    [0m [32mrender with html report template: extent-theme-template.html[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: /Users/bais/Desktop/zgxtapi/reports/20201211T072521.181482.html[0m

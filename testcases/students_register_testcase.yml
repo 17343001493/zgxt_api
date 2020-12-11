@@ -1,0 +1,15 @@
+
+config:
+    name: 测试注册功能
+    variables:
+        mobile: ${get_mobile()}
+
+teststeps:
+-
+    name: 注册接口
+    api: api/students_register_api.yml
+    extract:
+        k: content.data.k
+-
+    name: 完善信息进行注册
+    api: api/students_register2_api.yml

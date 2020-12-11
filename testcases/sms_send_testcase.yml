@@ -1,0 +1,8 @@
+
+config:
+    name: 发送验证码
+
+teststeps:
+-
+    name: 发送验证码
+    api: api/sms_send_api.yml

@@ -1,0 +1,22 @@
+
+name: 注册功能测试
+#variables:
+#    mobile: ${get_mobile()}
+base_url: ${ENV(PASSPORT_URL)}
+
+
+request:
+    url: userve/user/login
+    method: POST
+    headers:
+            Content-Type: application/x-www-form-urlencoded
+    data:
+            user_account: $mobile
+            verify_data: 111111
+            country_code: 86
+            login_type: 2
+
+validate:
+    - eq: [status_code, 200]
+    - eq: [content.data.is_new,0]
+    - len_gt: [content.data.k,0]

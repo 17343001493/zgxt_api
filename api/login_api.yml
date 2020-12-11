@@ -1,0 +1,21 @@
+
+name: 账号密码登录接口
+variables:
+    user_account: $useraccount
+    verify_data: $verifydata
+    login_type: 1
+    expect: $expect
+base_url: ${ENV(PASSPORT_URL)}
+
+request:
+    url: userve/user/login
+    method: POST
+    headers:
+        Content-Type: application/x-www-form-urlencoded
+    data:
+        user_account: $user_account
+        verify_data: $verify_data
+        login_type: $login_type
+validate:
+    - eq: ["status_code", 200]
+    - eq: [content.tips,$expect]

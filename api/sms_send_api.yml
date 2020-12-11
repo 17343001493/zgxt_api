@@ -1,0 +1,17 @@
+
+name: 获取短信验证码接口
+variables:
+    mobile: ${get_mobile()}
+base_url: ${ENV(PASSPORT_URL)}
+
+request:
+    url: userve/common/sendcode
+    method: POST
+    headers:
+        Content-Type: application/x-www-form-urlencoded
+    data:
+        mobile: $mobile
+        country_code: 86
+validate:
+    - eq: ["status_code", 200]
+    - eq: [content.data.result,true]

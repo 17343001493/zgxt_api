@@ -1,0 +1,10 @@
+
+config:
+    name: 获取验证码
+
+testcases:
+-
+    name: 获取验证码
+    testcase: testcases/sms_send_testcase.yml
+
+

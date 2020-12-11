@@ -1,0 +1,8 @@
+
+config:
+    name: 获取信息
+
+teststeps:
+-
+    name: 获取信息
+    api: api/user_info_api.yml

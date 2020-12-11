@@ -1,0 +1,10 @@
+
+config:
+    name: 注册接口
+
+testcases:
+-
+    name: 注册接口
+    testcase: testcases/students_register_testcase.yml
+
+

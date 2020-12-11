@@ -1,0 +1,25 @@
+
+name: 进行注册
+#variables:
+#    mobile: ${get_mobile()}
+base_url: ${ENV(PASSPORT_URL)}
+
+
+request:
+    url: userve/student/login
+    method: POST
+    headers:
+        Content-Type: application/x-www-form-urlencoded
+    data:
+        user_account: $mobile
+        verify_data: 111111
+        country_code: 86
+        login_type: 2
+        city: 北京
+        stu_name: aas
+        stu_birthday: 2001-01-01
+        grade_id: 1
+        k: $k
+validate:
+    - eq: [status_code, 200]
+    - eq: [content.data.user_info.name, aas]
